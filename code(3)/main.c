@@ -10,7 +10,6 @@ int main() {
   printf("\n друге число z=");
   scanf("%d",&z);
   f=(x*x+z*z)/(sqrt(x+y));
-  printf("x \t y \t z\t f \n");
-  printf("%d\t%d\t%d\t%d\t", x, y, z, f);
+  printf("\n значення функції f=%d",f );
   return 0;
 }
