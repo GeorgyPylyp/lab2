@@ -10,7 +10,6 @@ int main() {
   printf("\n величина c=");
   scanf("%d",&c);
   y=(5*a-b+pow(c,2))/(2+c)+1;
-  printf("a \t b \t c \t y \n");
-  printf("%d\t%d\t%d\t%d", a, b, c, y );
+  printf("\n значення функції y=%d",y );
   return 0;
 }
