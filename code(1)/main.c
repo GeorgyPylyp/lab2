@@ -12,7 +12,8 @@ int main() {
   d=a%b;
   r=b-a;
   s=a+b;
-  printf("a \t b \t d \t r \t s \n");
-  printf("%d\t%d\t%d\t%d\t%d", a, b, d, r, s );
+  printf("\n сума чисел s=%d", s);
+  printf("\n залишок від ділення d= %d", d);
+  printf("\n різниця чисел r=%d", r);
   return 0;
 }
